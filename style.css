@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+}
+
+.container{
+    width: 95%;
+    height: 90vh;
+    display: flex;
+}
+
+.quotes{
+    width: 700px;
+    border: 10px solid #ffbe76;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #bdc3c7;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#quote, #author{
+    font-size: 1.5rem;
+}
+
+
+
+.generate-button{
+    padding: 8px 10px;
+    border: 1ps soloid transparent;
+    border-radius: 12px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    outline: none;
+    background-color:#bdc3c7 ;
+    color: #3498db;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:450px){
+    #quote, #author{
+        font-size: 1rem;
+    }
+}
+
+
